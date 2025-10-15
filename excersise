@@ -1,0 +1,13 @@
+Una biblioteca local desea llevar un registro de los libros que presta a sus miembros. Diseñe una base de datos que cumpla con los siguientes requisitos:
+
+La biblioteca cuenta con numerosos libros. Cada libro tiene un código, título, autor y año de publicación únicos.
+La biblioteca cuenta con numerosos miembros. Cada miembro tiene un ID de miembro, nombre, dirección y número de teléfono.
+Cada libro puede ser prestado por un miembro. Cuando se presta un libro, la biblioteca registra la fecha de préstamo y la fecha prevista de devolución.
+La biblioteca cuenta con varios bibliotecarios que gestionan las transacciones de préstamo. Cada bibliotecario tiene un ID de personal, nombre y fecha de contratación.
+Se registra una transacción de préstamo cada vez que un miembro toma prestado un libro, y también se registra el bibliotecario que la gestionó.
+Entidades:
+
+Libro
+Miembro
+Bibliotecario
+Préstamo (como entidad asociativa)
